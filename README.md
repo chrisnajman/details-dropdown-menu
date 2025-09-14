@@ -87,6 +87,10 @@ The JavaScript has been split into separate modules, improving code modularity:
 - Mobile hamburger menu includes `aria-controls` and `aria-expanded` for screen reader support.
 - Semantic HTML structure (`<header>`, `<nav>`, `<main>`, `<details>`, `<summary>`) aids navigation for assistive technologies.
 
+### No JS
+
+If JavaScript is disabled, the loader animation, theme-toggler and mobile menu cease to function. However, all content remains accessible.
+
 [Back to menu](#menu)
 
 ---

@@ -1,0 +1,30 @@
+.no-js {
+    & .theme-toggler,
+    & .hamburger-button-wrapper,
+    & .loader,
+    & .loader::after {
+        display: none;
+    }
+
+    .primary-navigation {
+        & nav {
+            & .nav-items-wrapper {
+                @media screen and (width <= 30rem) {
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+            }
+            @media screen and (width <= 30rem) {
+                &.menu-hidden {
+                    width: inherit;
+                    height: inherit;
+                    padding: inherit;
+                    margin-inline: auto;
+                    position: static;
+                    clip-path: none;
+                    overflow: visible;
+                }
+            }
+        }
+    }
+}
