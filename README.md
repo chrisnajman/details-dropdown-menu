@@ -148,7 +148,7 @@ The application includes a dark mode and light mode toggle:
 
 The application has been tested on the following platforms and browsers:
 
-- **Operating System**: Windows 10
+- **Operating System**: Windows 10/11
 - **Browsers**:
   - Google Chrome (full support, including Anchor Positioning)
   - Mozilla Firefox (no Anchor Positioning support yet, but layout gracefully falls back to default `<details>` behavior)
